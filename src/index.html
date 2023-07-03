@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HelpDesk</title>
+</head>
+<body>
+  <header class="header">
+    <p>HelpDesk</p>
+  </header>
+
+  <div class="helpdesk-container">
+    <div class="btn-add-ticket-container">
+      <button class="btn-add-ticket">Добавить тикет</button>
+    </div>
+    <ul class="tickets-list"></ul>
+
+    <form class="add-ticket-container">
+      <div class="add-ticket-header">Добавить тикет</div>
+      <div class="ticket-description">Краткое описание</div>
+      <textarea class="ticket-short-description-textarea"></textarea>
+      <div class="ticket-description">Подробное описание</div>
+      <textarea class="ticket-detailed-description-textarea"></textarea>
+      <div class="add-ticket-container-btn">
+        <button class="btn-cancel-add-ticket-container">Отмена</button>
+        <button class="btn-ok-add-ticket-container">Ок</button>
+      </div>
+      </form>
+
+    <form class="edit-ticket-container">
+      <div class="add-ticket-header">Изменить тикет</div>
+      <div class="ticket-description">Краткое описание</div>
+      <textarea class="ticket-short-description-textarea"></textarea>
+      <div class="ticket-description">Подробное описание</div>
+      <textarea class="ticket-detailed-description-textarea"></textarea>
+      <div class="add-ticket-container-btn">
+        <button class="btn-cancel-add-ticket-container">Отмена</button>
+        <button class="btn-ok-add-ticket-container">Ок</button>
+      </div>
+      </form>
+    
+    <form class="delete-ticket-container">
+      <div class="add-ticket-header">Удалить тикет</div>
+      <div class="ticket-description">Вы уверены, что хотите удалить тикет? Это действие не обратимо.</div>
+      <div class="add-ticket-container-btn">
+        <button class="btn-cancel-add-ticket-container">Отмена</button>
+        <button class="btn-ok-add-ticket-container">Ок</button>
+      </div>
+      </form>
+
+    </div>
+  </div>
+</body>
+</html>
